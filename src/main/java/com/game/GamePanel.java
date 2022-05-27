@@ -118,13 +118,13 @@ public class GamePanel extends JPanel implements KeyListener, ActionListener {
         }
 
         //键盘控制走向
-        if (keyCode==KeyEvent.VK_LEFT){
+        if (keyCode == KeyEvent.VK_LEFT || keyCode == KeyEvent.VK_A){
             fx = "L";
-        }else if (keyCode==KeyEvent.VK_RIGHT){
+        }else if (keyCode == KeyEvent.VK_RIGHT || keyCode == KeyEvent.VK_D){
             fx = "R";
-        }else if (keyCode==KeyEvent.VK_UP){
+        }else if (keyCode == KeyEvent.VK_UP || keyCode == KeyEvent.VK_W){
             fx = "U";
-        }else if (keyCode==KeyEvent.VK_DOWN){
+        }else if (keyCode == KeyEvent.VK_DOWN || keyCode == KeyEvent.VK_S){
             fx = "D";
         }
 
