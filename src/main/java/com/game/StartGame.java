@@ -2,6 +2,7 @@ package com.game;
 
 import javax.swing.*;
 
+// 启动类
 public class StartGame {
 
     public static void main(String[] args) {
